@@ -9,8 +9,8 @@ import numpy as np
 import plotly.graph_objects as go
 from itertools import combinations
 from typing import Optional
-from utils.db import get_connection
-from utils.helpers import PLATFORM_CONFIG, PLATFORM_ORDER, compute_total_cost, fmt_currency
+from db import get_connection
+from helpers import PLATFORM_CONFIG, PLATFORM_ORDER, compute_total_cost, fmt_currency
 
 
 # ──────────────────────────────────────────────
