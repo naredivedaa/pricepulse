@@ -1,11 +1,8 @@
-[core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = false
-	logallrefupdates = true
+[safe]
+	directory = /opt/flutter
+	directory = /opt/flutter/.git
 [user]
-	name = unknown
-	email = mabefir905@afterdo.com
-[remote "genspark"]
-	url = https://www.genspark.ai/sb-git/me/genspark-e2c66820-4077-4718-800f-8f46cbd3ffb2.git
-	fetch = +refs/heads/*:refs/remotes/genspark/*
+	name = genspark_dev
+	email = genspark_dev@genspark.ai
+[init]
+	defaultBranch = main
