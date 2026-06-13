@@ -9,8 +9,8 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from utils.db import get_connection
-from utils.helpers import PLATFORM_CONFIG, PLATFORM_ORDER
+from db import get_connection
+from helpers import PLATFORM_CONFIG, PLATFORM_ORDER
 
 
 # ──────────────────────────────────────────────
