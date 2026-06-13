@@ -4,7 +4,7 @@ Handles login, signup, session state management and logout.
 """
 
 import streamlit as st
-from utils.db import authenticate_user, create_user, get_user_by_id
+from db import authenticate_user, create_user, get_user_by_id
 
 
 # ──────────────────────────────────────────────
