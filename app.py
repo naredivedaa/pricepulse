@@ -18,9 +18,9 @@ import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 # ── Lazy import to keep startup fast ──────────────
-from utils.db import init_database
-from utils.helpers import inject_global_css, render_sidebar_logo, PLATFORM_CONFIG
-from utils.auth import render_sidebar_auth, is_logged_in, get_current_user
+from db import init_database
+from helpers import inject_global_css, render_sidebar_logo, PLATFORM_CONFIG
+from auth import render_sidebar_auth, is_logged_in, get_current_user
 
 # ──────────────────────────────────────────────────
 # Streamlit page configuration (must be first call)
