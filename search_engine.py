@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np
 from difflib import SequenceMatcher
 from typing import Optional
-from utils.db import get_connection, log_search
+from db import get_connection, log_search
 
 
 # ──────────────────────────────────────────────
