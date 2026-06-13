@@ -8,8 +8,8 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 from datetime import datetime, timedelta
-from utils.db import get_connection, get_platform_stats, get_biggest_savings
-from utils.helpers import PLATFORM_CONFIG, PLATFORM_ORDER, fmt_currency
+from db import get_connection, get_platform_stats, get_biggest_savings
+from helpers import PLATFORM_CONFIG, PLATFORM_ORDER, fmt_currency
 
 
 # ──────────────────────────────────────────────
