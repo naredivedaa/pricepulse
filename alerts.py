@@ -5,8 +5,8 @@ Manages creation, monitoring, and notification of price alerts.
 
 import pandas as pd
 from datetime import datetime
-from utils.db import get_connection, create_price_alert, get_user_alerts, delete_alert
-from utils.helpers import PLATFORM_CONFIG, PLATFORM_ORDER, fmt_currency
+from db import get_connection, create_price_alert, get_user_alerts, delete_alert
+from helpers import PLATFORM_CONFIG, PLATFORM_ORDER, fmt_currency
 
 
 def create_alert(user_id: str, product_id: str, product_name: str,
